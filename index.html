@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gowthami Bolgam | AI & Data Science Portfolio</title>
+  <meta name="description" content="Gowthami Bolgam's portfolio showcasing AI, ML, Data Science projects, and n8n chatbot automation.">
+  <meta property="og:title" content="Gowthami Bolgam | AI Portfolio">
+  <meta property="og:description" content="Explore Gowthami Bolgam's work in AI, ML, and n8n automation. Includes stock prediction, image segmentation, and more.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/Gowthami-dev/portfolio/main/assets/preview.jpg">
+  <meta property="og:url" content="https://gowthami-dev.github.io/portfolio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gowthami Bolgam | AI Portfolio">
+  <meta name="twitter:description" content="Explore Gowthami's ML projects, n8n chatbot, and portfolio website.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Gowthami-dev/portfolio/main/assets/preview.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #0e0e0e;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      padding: 2rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #e0e0e0;
+      margin-top: 0.5rem;
+    }
+    nav {
+      background: #181818;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #aaa;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: #ffcc70;
+      border-bottom: 2px solid #ffcc70;
+      display: inline-block;
+    }
+    .skills-list span {
+      display: inline-block;
+      background: #333;
+      color: #ffcc70;
+      margin: 5px;
+      padding: 6px 12px;
+      border-radius: 4px;
+    }
+    .project {
+      margin-bottom: 1.5rem;
+    }
+    .project h3 {
+      color: #87f1ff;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 1rem;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    a.btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 20px;
+      background: #ffcc70;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gowthami Bolgam</h1>
+    <p>AI & ML Enthusiast | Data Science | Workflow Automation | B.Tech AIM + DS Minor</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#n8n">n8n</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Gowthami Bolgam, currently pursuing B.Tech in Artificial Intelligence & Machine Learning at CMR College of Engineering and Technology, with a minor in Data Science. I love building smart solutions that solve real-world problems. My interests lie in Machine Learning, Deep Learning, NLP, and Data Analytics. I'm open to internship and research opportunities in AI & DS domains.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>Python</span>
+      <span>R</span>
+      <span>SQL</span>
+      <span>C++</span>
+      <span>Pandas</span>
+      <span>NumPy</span>
+      <span>scikit-learn</span>
+      <span>Keras</span>
+      <span>TensorFlow</span>
+      <span>OpenCV</span>
+      <span>Matplotlib</span>
+      <span>Seaborn</span>
+      <span>Git</span>
+      <span>HTML/CSS</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Stock Price Prediction Using LSTM & ANN</h3>
+      <p>Built deep learning models using LSTM and ANN to forecast stock trends. Tools used: Python, TensorFlow, Keras.</p>
+      <a class="btn" href="https://github.com/Gowthami-dev" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Image Segmentation</h3>
+      <p>Developed a semantic segmentation model using CNN (U-Net) to distinguish regions in images. Used OpenCV and Keras.</p>
+    </div>
+    <div class="project">
+      <h3>Age & Gender Detection</h3>
+      <p>Real-time face analysis using CNN for age and gender prediction. Built using OpenCV and deep learning models.</p>
+    </div>
+  </section>
+
+  <section id="n8n">
+    <h2>Workflow Automation using n8n</h2>
+    <p>I created an <strong>offline chatbot</strong> using <strong>n8n</strong>, a no-code/low-code automation tool. The bot works without any AI or API calls — just using logic nodes like <code>Switch</code> and <code>Edit Fields</code> to simulate intelligent conversations.</p>
+    <p>This workflow uses a trigger, user input, logic-based replies, and conditional routing, all in a clean flow. I’m also exploring how to integrate this with <strong>Telegram</strong> for a fully automated chat experience.</p>
+    <p>Tools Used: n8n, JSON Logic, Telegram Bot API</p>
+    <img src="assets/n8n-chatbot.png" alt="n8n Workflow Screenshot" style="max-width:100%; margin-top:1rem; border:1px solid #333; border-radius:10px;" />
+    <a class="btn" href="https://github.com/Gowthami-dev" target="_blank">View More Projects</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: gowthamibolgam847@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/gowthami-bolgam-54a016314" target="_blank" style="color:#87f1ff">/gowthami-bolgam</a></p>
+    <p>GitHub: <a href="https://github.com/Gowthami-dev" target="_blank" style="color:#87f1ff">/Gowthami-dev</a></p>
+    <p>Portfolio: <a href="https://gowthami-dev.github.io/portfolio" target="_blank" style="color:#87f1ff">gowthami-dev.github.io/portfolio</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gowthami Bolgam | Designed with ❤️</p>
+  </footer>
+</body>
+</html>
