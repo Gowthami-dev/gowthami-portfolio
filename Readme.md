@@ -37,7 +37,14 @@ I built a chatbot logic in n8n that uses:
 - Input field
 - Switch logic node
 - Conditional replies
-- Telegram integration (in progress)
+- Telegram integration
+- Modular Design
+- Offline-Compatible
+  
+# Workflows
+- Email Auto-Responder with Gmail & n8n
+- GitHub Issue Notifier
+- Instagram Post Scheduler (with Buffer API)
 
 ---
 
